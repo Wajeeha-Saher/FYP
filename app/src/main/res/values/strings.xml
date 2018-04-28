@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Driver_side</string>
+    <string name="logo_name">FREIGHT TECH</string>
+    <string name="email">Enter Email</string>
+    <string name="password">Enter Password</string>
+    <string name="login">LOGIN</string>
+    <string name="footer">Email: abc@xyz.com\nAll rights are reserved</string>
+    <string name="fname">Enter Full Name</string>
+    <string name="cont_no">Enter Contact Number</string>
+    <string name="car_no">Enter Car Number</string>
+    <string name="register_button">REGISTER</string>
+    <string name="register">Register Yourself</string>
+    <string name="register_company">Register Your Company</string>
+    <string name="location">Enter Company Location</string>
+    <string name="company_name">Enter Company Name</string>
+    <string name="logout">LOGOUT</string>
+    <string name="back">BACK</string>
+    <string name="pick_location">Pick Location</string>
+    <string name="drop_location">Drop Location</string>
+    <string name="send">SEND</string>
+    <string name="CONTACT_US">Contact Us</string>
+    <string name="curr_order">Current Order</string>
+    <string name="place_order">Place Order</string>
+    <string name="message">Enter Message Here.</string>
+    <string name="name">Enter Your Name</string>
+    <string name="accept">ACCEPT</string>
+    <string name="decline">DECLINE</string>
+    <string name="submit">SUBMIT</string>
+    <string name="map">Go To Google Map</string>
+</resources>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "189112060688",
+    "firebase_url": "https://wajeeha-3d7f5.firebaseio.com",
+    "project_id": "wajeeha-3d7f5",
+    "storage_bucket": "wajeeha-3d7f5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:189112060688:android:2261567a4d8115cf",
+        "android_client_info": {
+          "package_name": "driver.side"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "189112060688-k6vv91ejb7onksc87dear3t3htpi6rpb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0l_FjgArnlHhopHpssjn1Jd-Bdd3B9HI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
