@@ -1,0 +1,290 @@
+[
+    {
+        "merged": "C:\\Users\\Yakhtar pc\\Downloads\\General\\Driver_side-20180901T153929Z-001\\Driver_side\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_light.xml",
+        "source": "C:\\Users\\Yakhtar pc\\.android\\build-cache\\0713d501949947cf309c949d20a0cd66588169cf\\output\\res\\color\\abc_hint_foreground_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL 6440\\Downloads\\Driver_side\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_background_cache_hint_selector_material_dark.xml",
+        "source": "C:\\Users\\DELL 6440\\.android\\build-cache\\47958fd547c4212fd87f9b642af178e970d2bfec\\output\\res\\color\\abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yakhtar pc\\Downloads\\General\\Driver_side-20180901T153929Z-001\\Driver_side\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_default.xml",
+        "source": "C:\\Users\\Yakhtar pc\\.android\\build-cache\\0713d501949947cf309c949d20a0cd66588169cf\\output\\res\\color\\abc_tint_default.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL 6440\\Downloads\\Driver_side\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_edittext.xml",
+        "source": "C:\\Users\\DELL 6440\\.android\\build-cache\\47958fd547c4212fd87f9b642af178e970d2bfec\\output\\res\\color\\abc_tint_edittext.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yakhtar pc\\Downloads\\General\\Driver_side-20180901T153929Z-001\\Driver_side\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_dark.xml",
+        "source": "C:\\Users\\Yakhtar pc\\.android\\build-cache\\0713d501949947cf309c949d20a0cd66588169cf\\output\\res\\color\\abc_hint_foreground_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL 6440\\AndroidStudioProjects\\Driver_side\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_light.xml",
+        "source": "C:\\Users\\DELL 6440\\.android\\build-cache\\47958fd547c4212fd87f9b642af178e970d2bfec\\output\\res\\color\\abc_hint_foreground_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL 6440\\Downloads\\Driver_side\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_dark.xml",
+        "source": "C:\\Users\\DELL 6440\\.android\\build-cache\\47958fd547c4212fd87f9b642af178e970d2bfec\\output\\res\\color\\abc_hint_foreground_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL 6440\\AndroidStudioProjects\\Driver_side\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
+        "source": "C:\\Users\\DELL 6440\\.android\\build-cache\\47958fd547c4212fd87f9b642af178e970d2bfec\\output\\res\\color\\abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL 6440\\AndroidStudioProjects\\Driver_side\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_btn_checkable.xml",
+        "source": "C:\\Users\\DELL 6440\\.android\\build-cache\\47958fd547c4212fd87f9b642af178e970d2bfec\\output\\res\\color\\abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yakhtar pc\\Downloads\\General\\Driver_side-20180901T153929Z-001\\Driver_side\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
+        "source": "C:\\Users\\Yakhtar pc\\.android\\build-cache\\0713d501949947cf309c949d20a0cd66588169cf\\output\\res\\color\\abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL 6440\\AndroidStudioProjects\\Driver_side\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
+        "source": "C:\\Users\\DELL 6440\\.android\\build-cache\\47958fd547c4212fd87f9b642af178e970d2bfec\\output\\res\\color\\switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL 6440\\Downloads\\Driver_side\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
+        "source": "C:\\Users\\DELL 6440\\.android\\build-cache\\47958fd547c4212fd87f9b642af178e970d2bfec\\output\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yakhtar pc\\Downloads\\General\\Driver_side-20180901T153929Z-001\\Driver_side\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_background_cache_hint_selector_material_dark.xml",
+        "source": "C:\\Users\\Yakhtar pc\\.android\\build-cache\\0713d501949947cf309c949d20a0cd66588169cf\\output\\res\\color\\abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yakhtar pc\\Downloads\\General\\Driver_side-20180901T153929Z-001\\Driver_side\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_spinner.xml",
+        "source": "C:\\Users\\Yakhtar pc\\.android\\build-cache\\0713d501949947cf309c949d20a0cd66588169cf\\output\\res\\color\\abc_tint_spinner.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL 6440\\Downloads\\Driver_side\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\DELL 6440\\.android\\build-cache\\93f9f5975f4407aeba8a6df4619cdec6c23e6681\\output\\res\\color\\common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yakhtar pc\\Downloads\\General\\Driver_side-20180901T153929Z-001\\Driver_side\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_text_material.xml",
+        "source": "C:\\Users\\Yakhtar pc\\.android\\build-cache\\0713d501949947cf309c949d20a0cd66588169cf\\output\\res\\color\\abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL 6440\\Downloads\\Driver_side\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_default.xml",
+        "source": "C:\\Users\\DELL 6440\\.android\\build-cache\\47958fd547c4212fd87f9b642af178e970d2bfec\\output\\res\\color\\abc_tint_default.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL 6440\\Downloads\\Driver_side\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
+        "source": "C:\\Users\\DELL 6440\\.android\\build-cache\\47958fd547c4212fd87f9b642af178e970d2bfec\\output\\res\\color\\switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL 6440\\AndroidStudioProjects\\Driver_side\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_background_cache_hint_selector_material_light.xml",
+        "source": "C:\\Users\\DELL 6440\\.android\\build-cache\\47958fd547c4212fd87f9b642af178e970d2bfec\\output\\res\\color\\abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL 6440\\AndroidStudioProjects\\Driver_side\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
+        "source": "C:\\Users\\DELL 6440\\.android\\build-cache\\47958fd547c4212fd87f9b642af178e970d2bfec\\output\\res\\color\\abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL 6440\\AndroidStudioProjects\\Driver_side\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_spinner.xml",
+        "source": "C:\\Users\\DELL 6440\\.android\\build-cache\\47958fd547c4212fd87f9b642af178e970d2bfec\\output\\res\\color\\abc_tint_spinner.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yakhtar pc\\Downloads\\General\\Driver_side-20180901T153929Z-001\\Driver_side\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
+        "source": "C:\\Users\\Yakhtar pc\\.android\\build-cache\\0713d501949947cf309c949d20a0cd66588169cf\\output\\res\\color\\abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL 6440\\AndroidStudioProjects\\Driver_side\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_text_material.xml",
+        "source": "C:\\Users\\DELL 6440\\.android\\build-cache\\47958fd547c4212fd87f9b642af178e970d2bfec\\output\\res\\color\\abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL 6440\\Downloads\\Driver_side\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_light.xml",
+        "source": "C:\\Users\\DELL 6440\\.android\\build-cache\\47958fd547c4212fd87f9b642af178e970d2bfec\\output\\res\\color\\abc_hint_foreground_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yakhtar pc\\Downloads\\General\\Driver_side-20180901T153929Z-001\\Driver_side\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\Yakhtar pc\\.android\\build-cache\\cdfee7b65e56fb4de3e6c252fab953edfce00362\\output\\res\\color\\common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL 6440\\AndroidStudioProjects\\Driver_side\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_light.xml",
+        "source": "C:\\Users\\DELL 6440\\.android\\build-cache\\93f9f5975f4407aeba8a6df4619cdec6c23e6681\\output\\res\\color\\common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL 6440\\AndroidStudioProjects\\Driver_side\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_default.xml",
+        "source": "C:\\Users\\DELL 6440\\.android\\build-cache\\47958fd547c4212fd87f9b642af178e970d2bfec\\output\\res\\color\\abc_tint_default.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL 6440\\AndroidStudioProjects\\Driver_side\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
+        "source": "C:\\Users\\DELL 6440\\.android\\build-cache\\47958fd547c4212fd87f9b642af178e970d2bfec\\output\\res\\color\\abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL 6440\\Downloads\\Driver_side\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_light.xml",
+        "source": "C:\\Users\\DELL 6440\\.android\\build-cache\\93f9f5975f4407aeba8a6df4619cdec6c23e6681\\output\\res\\color\\common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL 6440\\AndroidStudioProjects\\Driver_side\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
+        "source": "C:\\Users\\DELL 6440\\.android\\build-cache\\47958fd547c4212fd87f9b642af178e970d2bfec\\output\\res\\color\\abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL 6440\\AndroidStudioProjects\\Driver_side\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_dark.xml",
+        "source": "C:\\Users\\DELL 6440\\.android\\build-cache\\47958fd547c4212fd87f9b642af178e970d2bfec\\output\\res\\color\\abc_hint_foreground_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL 6440\\Downloads\\Driver_side\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_text_material.xml",
+        "source": "C:\\Users\\DELL 6440\\.android\\build-cache\\47958fd547c4212fd87f9b642af178e970d2bfec\\output\\res\\color\\abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL 6440\\AndroidStudioProjects\\Driver_side\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_borderless_text_material.xml",
+        "source": "C:\\Users\\DELL 6440\\.android\\build-cache\\47958fd547c4212fd87f9b642af178e970d2bfec\\output\\res\\color\\abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL 6440\\Downloads\\Driver_side\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
+        "source": "C:\\Users\\DELL 6440\\.android\\build-cache\\47958fd547c4212fd87f9b642af178e970d2bfec\\output\\res\\color\\abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL 6440\\AndroidStudioProjects\\Driver_side\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
+        "source": "C:\\Users\\DELL 6440\\.android\\build-cache\\47958fd547c4212fd87f9b642af178e970d2bfec\\output\\res\\color\\abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL 6440\\Downloads\\Driver_side\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_background_cache_hint_selector_material_light.xml",
+        "source": "C:\\Users\\DELL 6440\\.android\\build-cache\\47958fd547c4212fd87f9b642af178e970d2bfec\\output\\res\\color\\abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL 6440\\AndroidStudioProjects\\Driver_side\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
+        "source": "C:\\Users\\DELL 6440\\.android\\build-cache\\47958fd547c4212fd87f9b642af178e970d2bfec\\output\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL 6440\\AndroidStudioProjects\\Driver_side\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
+        "source": "C:\\Users\\DELL 6440\\.android\\build-cache\\47958fd547c4212fd87f9b642af178e970d2bfec\\output\\res\\color\\switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL 6440\\Downloads\\Driver_side\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
+        "source": "C:\\Users\\DELL 6440\\.android\\build-cache\\47958fd547c4212fd87f9b642af178e970d2bfec\\output\\res\\color\\abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yakhtar pc\\Downloads\\General\\Driver_side-20180901T153929Z-001\\Driver_side\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_edittext.xml",
+        "source": "C:\\Users\\Yakhtar pc\\.android\\build-cache\\0713d501949947cf309c949d20a0cd66588169cf\\output\\res\\color\\abc_tint_edittext.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL 6440\\Downloads\\Driver_side\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
+        "source": "C:\\Users\\DELL 6440\\.android\\build-cache\\47958fd547c4212fd87f9b642af178e970d2bfec\\output\\res\\color\\abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL 6440\\AndroidStudioProjects\\Driver_side\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\DELL 6440\\.android\\build-cache\\93f9f5975f4407aeba8a6df4619cdec6c23e6681\\output\\res\\color\\common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL 6440\\Downloads\\Driver_side\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_tint.xml",
+        "source": "C:\\Users\\DELL 6440\\.android\\build-cache\\93f9f5975f4407aeba8a6df4619cdec6c23e6681\\output\\res\\color\\common_google_signin_btn_tint.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL 6440\\Downloads\\Driver_side\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
+        "source": "C:\\Users\\DELL 6440\\.android\\build-cache\\47958fd547c4212fd87f9b642af178e970d2bfec\\output\\res\\color\\abc_search_url_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yakhtar pc\\Downloads\\General\\Driver_side-20180901T153929Z-001\\Driver_side\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_borderless_text_material.xml",
+        "source": "C:\\Users\\Yakhtar pc\\.android\\build-cache\\0713d501949947cf309c949d20a0cd66588169cf\\output\\res\\color\\abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL 6440\\Downloads\\Driver_side\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_seek_thumb.xml",
+        "source": "C:\\Users\\DELL 6440\\.android\\build-cache\\47958fd547c4212fd87f9b642af178e970d2bfec\\output\\res\\color\\abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yakhtar pc\\Downloads\\General\\Driver_side-20180901T153929Z-001\\Driver_side\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_light.xml",
+        "source": "C:\\Users\\Yakhtar pc\\.android\\build-cache\\cdfee7b65e56fb4de3e6c252fab953edfce00362\\output\\res\\color\\common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yakhtar pc\\Downloads\\General\\Driver_side-20180901T153929Z-001\\Driver_side\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_background_cache_hint_selector_material_light.xml",
+        "source": "C:\\Users\\Yakhtar pc\\.android\\build-cache\\0713d501949947cf309c949d20a0cd66588169cf\\output\\res\\color\\abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL 6440\\Downloads\\Driver_side\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_track.xml",
+        "source": "C:\\Users\\DELL 6440\\.android\\build-cache\\47958fd547c4212fd87f9b642af178e970d2bfec\\output\\res\\color\\abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL 6440\\Downloads\\Driver_side\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
+        "source": "C:\\Users\\DELL 6440\\.android\\build-cache\\47958fd547c4212fd87f9b642af178e970d2bfec\\output\\res\\color\\abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yakhtar pc\\Downloads\\General\\Driver_side-20180901T153929Z-001\\Driver_side\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_seek_thumb.xml",
+        "source": "C:\\Users\\Yakhtar pc\\.android\\build-cache\\0713d501949947cf309c949d20a0cd66588169cf\\output\\res\\color\\abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yakhtar pc\\Downloads\\General\\Driver_side-20180901T153929Z-001\\Driver_side\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
+        "source": "C:\\Users\\Yakhtar pc\\.android\\build-cache\\0713d501949947cf309c949d20a0cd66588169cf\\output\\res\\color\\abc_search_url_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yakhtar pc\\Downloads\\General\\Driver_side-20180901T153929Z-001\\Driver_side\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_track.xml",
+        "source": "C:\\Users\\Yakhtar pc\\.android\\build-cache\\0713d501949947cf309c949d20a0cd66588169cf\\output\\res\\color\\abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL 6440\\AndroidStudioProjects\\Driver_side\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_tint.xml",
+        "source": "C:\\Users\\DELL 6440\\.android\\build-cache\\93f9f5975f4407aeba8a6df4619cdec6c23e6681\\output\\res\\color\\common_google_signin_btn_tint.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yakhtar pc\\Downloads\\General\\Driver_side-20180901T153929Z-001\\Driver_side\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
+        "source": "C:\\Users\\Yakhtar pc\\.android\\build-cache\\0713d501949947cf309c949d20a0cd66588169cf\\output\\res\\color\\switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL 6440\\AndroidStudioProjects\\Driver_side\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_background_cache_hint_selector_material_dark.xml",
+        "source": "C:\\Users\\DELL 6440\\.android\\build-cache\\47958fd547c4212fd87f9b642af178e970d2bfec\\output\\res\\color\\abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yakhtar pc\\Downloads\\General\\Driver_side-20180901T153929Z-001\\Driver_side\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
+        "source": "C:\\Users\\Yakhtar pc\\.android\\build-cache\\0713d501949947cf309c949d20a0cd66588169cf\\output\\res\\color\\abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yakhtar pc\\Downloads\\General\\Driver_side-20180901T153929Z-001\\Driver_side\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
+        "source": "C:\\Users\\Yakhtar pc\\.android\\build-cache\\0713d501949947cf309c949d20a0cd66588169cf\\output\\res\\color\\switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL 6440\\Downloads\\Driver_side\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_btn_checkable.xml",
+        "source": "C:\\Users\\DELL 6440\\.android\\build-cache\\47958fd547c4212fd87f9b642af178e970d2bfec\\output\\res\\color\\abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yakhtar pc\\Downloads\\General\\Driver_side-20180901T153929Z-001\\Driver_side\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
+        "source": "C:\\Users\\Yakhtar pc\\.android\\build-cache\\0713d501949947cf309c949d20a0cd66588169cf\\output\\res\\color\\abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL 6440\\AndroidStudioProjects\\Driver_side\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_seek_thumb.xml",
+        "source": "C:\\Users\\DELL 6440\\.android\\build-cache\\47958fd547c4212fd87f9b642af178e970d2bfec\\output\\res\\color\\abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL 6440\\Downloads\\Driver_side\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_spinner.xml",
+        "source": "C:\\Users\\DELL 6440\\.android\\build-cache\\47958fd547c4212fd87f9b642af178e970d2bfec\\output\\res\\color\\abc_tint_spinner.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL 6440\\Downloads\\Driver_side\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
+        "source": "C:\\Users\\DELL 6440\\.android\\build-cache\\47958fd547c4212fd87f9b642af178e970d2bfec\\output\\res\\color\\switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL 6440\\AndroidStudioProjects\\Driver_side\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_edittext.xml",
+        "source": "C:\\Users\\DELL 6440\\.android\\build-cache\\47958fd547c4212fd87f9b642af178e970d2bfec\\output\\res\\color\\abc_tint_edittext.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL 6440\\AndroidStudioProjects\\Driver_side\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
+        "source": "C:\\Users\\DELL 6440\\.android\\build-cache\\47958fd547c4212fd87f9b642af178e970d2bfec\\output\\res\\color\\abc_search_url_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL 6440\\Downloads\\Driver_side\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
+        "source": "C:\\Users\\DELL 6440\\.android\\build-cache\\47958fd547c4212fd87f9b642af178e970d2bfec\\output\\res\\color\\abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yakhtar pc\\Downloads\\General\\Driver_side-20180901T153929Z-001\\Driver_side\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
+        "source": "C:\\Users\\Yakhtar pc\\.android\\build-cache\\0713d501949947cf309c949d20a0cd66588169cf\\output\\res\\color\\abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yakhtar pc\\Downloads\\General\\Driver_side-20180901T153929Z-001\\Driver_side\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_btn_checkable.xml",
+        "source": "C:\\Users\\Yakhtar pc\\.android\\build-cache\\0713d501949947cf309c949d20a0cd66588169cf\\output\\res\\color\\abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL 6440\\Downloads\\Driver_side\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_borderless_text_material.xml",
+        "source": "C:\\Users\\DELL 6440\\.android\\build-cache\\47958fd547c4212fd87f9b642af178e970d2bfec\\output\\res\\color\\abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yakhtar pc\\Downloads\\General\\Driver_side-20180901T153929Z-001\\Driver_side\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
+        "source": "C:\\Users\\Yakhtar pc\\.android\\build-cache\\0713d501949947cf309c949d20a0cd66588169cf\\output\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL 6440\\AndroidStudioProjects\\Driver_side\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_track.xml",
+        "source": "C:\\Users\\DELL 6440\\.android\\build-cache\\47958fd547c4212fd87f9b642af178e970d2bfec\\output\\res\\color\\abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yakhtar pc\\Downloads\\General\\Driver_side-20180901T153929Z-001\\Driver_side\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_tint.xml",
+        "source": "C:\\Users\\Yakhtar pc\\.android\\build-cache\\cdfee7b65e56fb4de3e6c252fab953edfce00362\\output\\res\\color\\common_google_signin_btn_tint.xml"
+    }
+]

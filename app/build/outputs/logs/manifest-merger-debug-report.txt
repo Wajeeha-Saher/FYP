@@ -1,0 +1,161 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\DELL 6440\Downloads\Driver_side\app\src\main\AndroidManifest.xml:2:1-54:12
+	package
+		ADDED from C:\Users\DELL 6440\Downloads\Driver_side\app\src\main\AndroidManifest.xml:3:5-47
+		INJECTED from C:\Users\DELL 6440\Downloads\Driver_side\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\DELL 6440\Downloads\Driver_side\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\DELL 6440\Downloads\Driver_side\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\DELL 6440\Downloads\Driver_side\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\DELL 6440\Downloads\Driver_side\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from C:\Users\DELL 6440\Downloads\Driver_side\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\DELL 6440\Downloads\Driver_side\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\DELL 6440\Downloads\Driver_side\app\src\main\AndroidManifest.xml:5:5-81
+	android:name
+		ADDED from C:\Users\DELL 6440\Downloads\Driver_side\app\src\main\AndroidManifest.xml:5:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\DELL 6440\Downloads\Driver_side\app\src\main\AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from C:\Users\DELL 6440\Downloads\Driver_side\app\src\main\AndroidManifest.xml:6:22-76
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\DELL 6440\Downloads\Driver_side\app\src\main\AndroidManifest.xml:7:5-67
+MERGED from [com.google.android.gms:play-services-maps:11.0.4] C:\Users\DELL 6440\.android\build-cache\56bbf9189de274a5d89168e8712b6d6190dfef4d\output\AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from C:\Users\DELL 6440\Downloads\Driver_side\app\src\main\AndroidManifest.xml:7:22-64
+supports-screens
+ADDED from C:\Users\DELL 6440\Downloads\Driver_side\app\src\main\AndroidManifest.xml:9:5-13:40
+	android:largeScreens
+		ADDED from C:\Users\DELL 6440\Downloads\Driver_side\app\src\main\AndroidManifest.xml:10:9-36
+	android:smallScreens
+		ADDED from C:\Users\DELL 6440\Downloads\Driver_side\app\src\main\AndroidManifest.xml:12:9-36
+	android:normalScreens
+		ADDED from C:\Users\DELL 6440\Downloads\Driver_side\app\src\main\AndroidManifest.xml:11:9-37
+	android:xlargeScreens
+		ADDED from C:\Users\DELL 6440\Downloads\Driver_side\app\src\main\AndroidManifest.xml:13:9-37
+application
+ADDED from C:\Users\DELL 6440\Downloads\Driver_side\app\src\main\AndroidManifest.xml:15:5-52:19
+MERGED from [com.android.volley:volley:1.0.0] C:\Users\DELL 6440\.android\build-cache\ec4a24056d2b19f5ec7f9daf84c0a6def95a7d55\output\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\DELL 6440\.android\build-cache\ddf12cdb3ac721884438633c0ccabd88437b3493\output\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-maps:11.0.4] C:\Users\DELL 6440\.android\build-cache\56bbf9189de274a5d89168e8712b6d6190dfef4d\output\AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\DELL 6440\.android\build-cache\93f9f5975f4407aeba8a6df4619cdec6c23e6681\output\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:11.0.4] C:\Users\DELL 6440\.android\build-cache\2e0df02e44ffdd5bac99ab90cdf7ce2078b01be5\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\DELL 6440\.android\build-cache\9b73804992231919e024ef8d274449a7984b9a0e\output\AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:25.2.0] C:\Users\DELL 6440\.android\build-cache\486d1593aee056ae4c66aeb6c01094c06e8cc53b\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\DELL 6440\.android\build-cache\7c238efa0d88141ea4c1e60367244b3428b4c1cd\output\AndroidManifest.xml:25:5-20
+	android:label
+		ADDED from C:\Users\DELL 6440\Downloads\Driver_side\app\src\main\AndroidManifest.xml:18:9-41
+	android:supportsRtl
+		ADDED from C:\Users\DELL 6440\Downloads\Driver_side\app\src\main\AndroidManifest.xml:20:9-35
+	android:roundIcon
+		ADDED from C:\Users\DELL 6440\Downloads\Driver_side\app\src\main\AndroidManifest.xml:19:9-54
+	android:allowBackup
+		ADDED from C:\Users\DELL 6440\Downloads\Driver_side\app\src\main\AndroidManifest.xml:16:9-35
+	android:icon
+		ADDED from C:\Users\DELL 6440\Downloads\Driver_side\app\src\main\AndroidManifest.xml:17:9-43
+	android:theme
+		ADDED from C:\Users\DELL 6440\Downloads\Driver_side\app\src\main\AndroidManifest.xml:21:9-40
+activity#com.example.dell6440.driver_side.Inbox
+ADDED from C:\Users\DELL 6440\Downloads\Driver_side\app\src\main\AndroidManifest.xml:22:9-28:20
+	android:name
+		ADDED from C:\Users\DELL 6440\Downloads\Driver_side\app\src\main\AndroidManifest.xml:22:19-40
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\DELL 6440\Downloads\Driver_side\app\src\main\AndroidManifest.xml:23:13-27:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\DELL 6440\Downloads\Driver_side\app\src\main\AndroidManifest.xml:24:17-69
+	android:name
+		ADDED from C:\Users\DELL 6440\Downloads\Driver_side\app\src\main\AndroidManifest.xml:24:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\DELL 6440\Downloads\Driver_side\app\src\main\AndroidManifest.xml:26:17-77
+	android:name
+		ADDED from C:\Users\DELL 6440\Downloads\Driver_side\app\src\main\AndroidManifest.xml:26:27-74
+activity#com.example.dell6440.driver_side.review
+ADDED from C:\Users\DELL 6440\Downloads\Driver_side\app\src\main\AndroidManifest.xml:29:9-44
+	android:name
+		ADDED from C:\Users\DELL 6440\Downloads\Driver_side\app\src\main\AndroidManifest.xml:29:19-41
+activity#com.example.dell6440.driver_side.Register_Yourself
+ADDED from C:\Users\DELL 6440\Downloads\Driver_side\app\src\main\AndroidManifest.xml:30:9-55
+	android:name
+		ADDED from C:\Users\DELL 6440\Downloads\Driver_side\app\src\main\AndroidManifest.xml:30:19-52
+activity#com.example.dell6440.driver_side.Dashboard
+ADDED from C:\Users\DELL 6440\Downloads\Driver_side\app\src\main\AndroidManifest.xml:31:9-47
+	android:name
+		ADDED from C:\Users\DELL 6440\Downloads\Driver_side\app\src\main\AndroidManifest.xml:31:19-44
+activity#com.example.dell6440.driver_side.NewOrders
+ADDED from C:\Users\DELL 6440\Downloads\Driver_side\app\src\main\AndroidManifest.xml:32:9-47
+	android:name
+		ADDED from C:\Users\DELL 6440\Downloads\Driver_side\app\src\main\AndroidManifest.xml:32:19-44
+activity#com.example.dell6440.driver_side.Accept
+ADDED from C:\Users\DELL 6440\Downloads\Driver_side\app\src\main\AndroidManifest.xml:34:9-36:61
+	android:label
+		ADDED from C:\Users\DELL 6440\Downloads\Driver_side\app\src\main\AndroidManifest.xml:36:13-58
+	android:name
+		ADDED from C:\Users\DELL 6440\Downloads\Driver_side\app\src\main\AndroidManifest.xml:35:13-35
+meta-data#com.google.android.geo.API_KEY
+ADDED from C:\Users\DELL 6440\Downloads\Driver_side\app\src\main\AndroidManifest.xml:45:9-47:55
+	android:value
+		ADDED from C:\Users\DELL 6440\Downloads\Driver_side\app\src\main\AndroidManifest.xml:47:13-52
+	android:name
+		ADDED from C:\Users\DELL 6440\Downloads\Driver_side\app\src\main\AndroidManifest.xml:46:13-58
+activity#com.example.dell6440.driver_side.MapsActivity
+ADDED from C:\Users\DELL 6440\Downloads\Driver_side\app\src\main\AndroidManifest.xml:49:9-51:68
+	android:label
+		ADDED from C:\Users\DELL 6440\Downloads\Driver_side\app\src\main\AndroidManifest.xml:51:13-56
+	android:name
+		ADDED from C:\Users\DELL 6440\Downloads\Driver_side\app\src\main\AndroidManifest.xml:50:13-41
+uses-sdk
+INJECTED from C:\Users\DELL 6440\Downloads\Driver_side\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.volley:volley:1.0.0] C:\Users\DELL 6440\.android\build-cache\ec4a24056d2b19f5ec7f9daf84c0a6def95a7d55\output\AndroidManifest.xml:7:5-43
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\DELL 6440\.android\build-cache\47958fd547c4212fd87f9b642af178e970d2bfec\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\DELL 6440\.android\build-cache\e1de370dae6b236987a1c4a455bcc5e2b5a2d72c\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\DELL 6440\.android\build-cache\77c485f97dca0b5f078538a51c578e19ba78b167\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\DELL 6440\.android\build-cache\ddf12cdb3ac721884438633c0ccabd88437b3493\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-maps:11.0.4] C:\Users\DELL 6440\.android\build-cache\56bbf9189de274a5d89168e8712b6d6190dfef4d\output\AndroidManifest.xml:23:5-43
+MERGED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\DELL 6440\.android\build-cache\93f9f5975f4407aeba8a6df4619cdec6c23e6681\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.0.4] C:\Users\DELL 6440\.android\build-cache\2e0df02e44ffdd5bac99ab90cdf7ce2078b01be5\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\DELL 6440\.android\build-cache\9b73804992231919e024ef8d274449a7984b9a0e\output\AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:support-v4:25.2.0] C:\Users\DELL 6440\.android\build-cache\486d1593aee056ae4c66aeb6c01094c06e8cc53b\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\DELL 6440\.android\build-cache\7c238efa0d88141ea4c1e60367244b3428b4c1cd\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\DELL 6440\.android\build-cache\268571fbdd31e31101f6e90646f4bdf163b85a46\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\DELL 6440\.android\build-cache\0730d05775c347576302fb5cc1109f4b840f0698\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\DELL 6440\.android\build-cache\b667bd5c749e045ca9602106e4f01c6c2fb3b030\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\DELL 6440\.android\build-cache\a618f7b9ae0fbb2e95dc949df4f99c8eeadda6b6\output\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\DELL 6440\.android\build-cache\5f94a56d27e35247ac5348059acef1215fb89236\output\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\DELL 6440\.android\build-cache\20c08c08fec93e08b70b9afd02c73420bf0b21aa\output\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\DELL 6440\.android\build-cache\82bfdbc9a506dc24e0764ccc988b35cbf0c32b28\output\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\DELL 6440\.android\build-cache\33a7e9a8e2a8478da941a9232823a6e4bbf9216c\output\AndroidManifest.xml:20:5-44
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v4:25.2.0] C:\Users\DELL 6440\.android\build-cache\486d1593aee056ae4c66aeb6c01094c06e8cc53b\output\AndroidManifest.xml:23:9-51
+	android:targetSdkVersion
+		INJECTED from C:\Users\DELL 6440\Downloads\Driver_side\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\DELL 6440\Downloads\Driver_side\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\DELL 6440\Downloads\Driver_side\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\DELL 6440\Downloads\Driver_side\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-maps:11.0.4] C:\Users\DELL 6440\.android\build-cache\56bbf9189de274a5d89168e8712b6d6190dfef4d\output\AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:11.0.4] C:\Users\DELL 6440\.android\build-cache\56bbf9189de274a5d89168e8712b6d6190dfef4d\output\AndroidManifest.xml:19:22-76
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:11.0.4] C:\Users\DELL 6440\.android\build-cache\56bbf9189de274a5d89168e8712b6d6190dfef4d\output\AndroidManifest.xml:21:5-77
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:11.0.4] C:\Users\DELL 6440\.android\build-cache\56bbf9189de274a5d89168e8712b6d6190dfef4d\output\AndroidManifest.xml:21:19-51
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:11.0.4] C:\Users\DELL 6440\.android\build-cache\56bbf9189de274a5d89168e8712b6d6190dfef4d\output\AndroidManifest.xml:21:52-75
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\DELL 6440\.android\build-cache\93f9f5975f4407aeba8a6df4619cdec6c23e6681\output\AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\DELL 6440\.android\build-cache\93f9f5975f4407aeba8a6df4619cdec6c23e6681\output\AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\DELL 6440\.android\build-cache\93f9f5975f4407aeba8a6df4619cdec6c23e6681\output\AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\DELL 6440\.android\build-cache\93f9f5975f4407aeba8a6df4619cdec6c23e6681\output\AndroidManifest.xml:19:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\DELL 6440\.android\build-cache\9b73804992231919e024ef8d274449a7984b9a0e\output\AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\DELL 6440\.android\build-cache\9b73804992231919e024ef8d274449a7984b9a0e\output\AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\DELL 6440\.android\build-cache\9b73804992231919e024ef8d274449a7984b9a0e\output\AndroidManifest.xml:20:20-65
