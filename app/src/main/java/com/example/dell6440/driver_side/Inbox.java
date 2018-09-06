@@ -1,19 +1,8 @@
 package com.example.dell6440.driver_side;
 
-import android.Manifest;
-import android.app.DownloadManager;
-import android.content.Context;
-import android.content.DialogInterface;
 import android.content.Intent;
-import android.content.pm.PackageManager;
-import android.location.Location;
-import android.location.LocationManager;
-import android.os.Handler;
-import android.provider.Settings;
-import android.support.v4.app.ActivityCompat;
-import android.support.v7.app.AlertDialog;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -27,220 +16,212 @@ import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 
+import org.json.JSONException;
+import org.json.JSONObject;
+
 import java.util.HashMap;
 import java.util.Map;
 
 public class Inbox extends AppCompatActivity {
-    private static final int REQUEST_LOCATION = 1;
+  //  private static final int REQUEST_LOCATION = 1;
     Button login, register;
     EditText email, password;
-    LocationManager locationManager;
-    String lattitude, longitude;
-    String abc = "asssf";
-    private Handler handler = new Handler();
-    String URL_Register = "http://112c0e03.ngrok.io/api/account/register";
+    UserSessionManager session;
+    //LocationManager locationManager;
+    //String lattitude, longitude;
+    //String response1;
+    public static String token;
+    //int DriverId;
+
+    public static String DriverId;
+  //  private Handler handler = new Handler();
+    public static String Email ;
+    String Password;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_inbox);
-
+//        session = new UserSessionManager(getApplicationContext());
         login = (Button) findViewById(R.id.curr_order);
         register = (Button) findViewById(R.id.button7);
         email = (EditText) findViewById(R.id.email);
         password = (EditText) findViewById(R.id.password);
 
 
-        login.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
 
-                login();
-                mToastRunnable.run();
+        Email = email.getText().toString();
+       // Password = password.getText().toString();
 
-            }
-        });
 
-        register.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
+            login.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
 
-                Intent i = new Intent(Inbox.this, Register_Yourself.class);
-                startActivity(i);
-            }
-        });
+                    if (email.getText().toString().trim().length() == 0) {
+                        Toast.makeText(getApplicationContext(), "Please enter email", Toast.LENGTH_SHORT).show();
+                        return;
+                    } else if (password.getText().toString().trim().length() == 0) {
+                        Toast.makeText(getApplicationContext(), "Please enter password", Toast.LENGTH_SHORT).show();
+                        return;
+                    }
 
-    }
+                 //   login();
+              //      locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
+                //    if (!locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER)) {
+                  //      buildAlertMessageNoGps();
+                  //  }
+                  //  mToastRunnable.run();
+
+                    Intent i = new Intent(Inbox.this, Dashboard.class);
+                    startActivity(i);
+                }
+            });
+
+            register.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+
+                    Intent i = new Intent(Inbox.this, Register_Yourself.class);
+                    startActivity(i);
+                }
+            });
+
+        }
+
 
 
     private void login() {
 
-        //   String Email = email.getText().toString();
-        // String Password = password.getText().toString();
 
-        Intent i = new Intent(Inbox.this, Dashboard.class);
-        startActivity(i);
-    }
-
-    private Runnable mToastRunnable = new Runnable() {
-
-        @Override
-        public void run() {
-            //Toast.makeText(Inbox.this, "delayed toast" , Toast.LENGTH_SHORT).show();
-            //    textView.append(" "+abc);
-            locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
-            if (!locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER)) {
-                buildAlertMessageNoGps();
-
-            } else if (locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER)) {
-                getLocation();
-
-            }
-
-            handler.postDelayed(mToastRunnable, 5000);
-        }
-
-    };
-
-    /*
-    public void yourfunction(){
-
-
-
-
-
-
-
-
-
-
-       /* ActivityCompat.requestPermissions(this, new String[]{android.Manifest.permission.ACCESS_FINE_LOCATION}, REQUEST_LOCATION);
-
-        textView = (TextView)findViewById(R.id.text);
-
-
-        button.setOnClickListener(new View.OnClickListener() {
-
-
-
-
-            @Override
-            public void onClick(View view) {
-                locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
-                if (!locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER)) {
-                    buildAlertMessageNoGps();
-
-                } else if (locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER)) {
-                    getLocation();
-
-                }
-    }
-
-
-    });
-        }
-    */
-    private void getLocation() {
-        if (ActivityCompat.checkSelfPermission(Inbox.this, Manifest.permission.ACCESS_FINE_LOCATION)
-                != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission
-                (Inbox.this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
-
-            ActivityCompat.requestPermissions(Inbox.this, new String[]{Manifest.permission.ACCESS_FINE_LOCATION}, REQUEST_LOCATION);
-
-        } else {
-            Location location = locationManager.getLastKnownLocation(LocationManager.NETWORK_PROVIDER);
-
-            Location location1 = locationManager.getLastKnownLocation(LocationManager.GPS_PROVIDER);
-
-            Location location2 = locationManager.getLastKnownLocation(LocationManager.PASSIVE_PROVIDER);
-
-            if (location != null) {
-                double latti = location.getLatitude();
-                double longi = location.getLongitude();
-                lattitude = String.valueOf(latti);
-                longitude = String.valueOf(longi);
-
-                //textView.append("Your current location is" + "\n" + "Lattitude = " + lattitude
-                  //      + "\n" + "Longitude = " + longitude);
-              //  postTime();
-                Toast.makeText(Inbox.this, " "+ lattitude, Toast.LENGTH_SHORT).show();
-            } else if (location1 != null) {
-                double latti = location1.getLatitude();
-                double longi = location1.getLongitude();
-                lattitude = String.valueOf(latti);
-                longitude = String.valueOf(longi);
-
-                //textView.append("Your current location is" + "\n" + "Lattitude = " + lattitude
-                  //      + "\n" + "Longitude = " + longitude);
-                Toast.makeText(Inbox.this, " "+ lattitude, Toast.LENGTH_SHORT).show();
-               // postTime();
-            } else if (location2 != null) {
-                double latti = location2.getLatitude();
-                double longi = location2.getLongitude();
-                lattitude = String.valueOf(latti);
-                longitude = String.valueOf(longi);
-
-             //   textView.append("Your current location is" + "\n" + "Lattitude = " + lattitude
-               //         + "\n" + "Longitude = " + longitude);
-                postTime();
-                Toast.makeText(Inbox.this, " "+ lattitude, Toast.LENGTH_SHORT).show();
-            } else {
-
-                Toast.makeText(this, "Unble to Trace your location", Toast.LENGTH_SHORT).show();
-
-            }
-        }
-    }
-
-    protected void buildAlertMessageNoGps() {
-
-        final AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setMessage("Please Turn ON your GPS Connection")
-                .setCancelable(false)
-                .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
-                    public void onClick(final DialogInterface dialog, final int id) {
-                        startActivity(new Intent(Settings.ACTION_LOCATION_SOURCE_SETTINGS));
-                    }
-                })
-                .setNegativeButton("No", new DialogInterface.OnClickListener() {
-                    public void onClick(final DialogInterface dialog, final int id) {
-                        dialog.cancel();
-                    }
-                });
-        final AlertDialog alert = builder.create();
-        alert.show();
-    }
-
-
-    private void postTime(){
-        StringRequest stringRequest = new StringRequest(Request.Method.POST, URL_Register, new Response.Listener<String>() {
+        StringRequest stringRequest = new StringRequest(Request.Method.POST, Constants.ApiEndPoints.LoginURL
+, new Response.Listener<String>() {
             @Override
             public void onResponse(String response) {
+                Toast.makeText(Inbox.this, " " + response, Toast.LENGTH_SHORT).show();
 
-                Toast.makeText(Inbox.this, " "+ response, Toast.LENGTH_SHORT).show();
+
+                JSONObject jsonObject = null;
+                try {
+                    jsonObject = new JSONObject(response);
+                    token = jsonObject.optString("access_token");
+                    Toast.makeText(Inbox.this, " " +token, Toast.LENGTH_SHORT).show();
+
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
+
+
+                //   session.createUserLoginSession("User Session ", Email);
+
+
+               bearer();
+
+//                Intent i = new Intent(Inbox.this, Dashboard.class);
+                // i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+
+                // Add new Flag to start new Activity
+                //i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+             //   startActivity(i);
             }
         },
                 new Response.ErrorListener() {
                     @Override
                     public void onErrorResponse(VolleyError error) {
-                        Toast.makeText(Inbox.this, " "+error, Toast.LENGTH_SHORT).show();
+
+                        Toast.makeText(Inbox.this, " " + error, Toast.LENGTH_SHORT).show();
                     }
                 }) {
             @Override
             protected Map<String, String> getParams() throws AuthFailureError {
                 Map<String, String> params = new HashMap<String, String>();
-              //  String Email = email.getText().toString();
-                //String Password = password.getText().toString();
-                //String FirstName = lattitude.getText().toString();
-                //String LastName = .getText().toString();
-                params.put("Email", lattitude);
-                params.put("Password", longitude);
-             //   params.put("FirstName", FirstName);
-               // params.put("LastName", LastName);
+
+               // String email_1 = Email;
+
+               Email = email.getText().toString();
+                Password = password.getText().toString();
+               // String grant = "password";
+                params.put("grant_type", "password");
+                params.put("username", Email);
+                params.put("password", Password);
+
                 return params;
+
             }
         };
+
+
         RequestQueue rq = Volley.newRequestQueue(this);
         rq.add(stringRequest);
 
-}}
+    }
+
+
+    public void bearer(){
+        StringRequest stringRequest = new StringRequest(Request.Method.POST, Constants.ApiEndPoints.GetDriverDetails,  new Response.Listener<String>() {
+            @Override
+            public void onResponse(String response) {
+
+                JSONObject jsonObject = null;
+                try {
+                    jsonObject = new JSONObject(response);
+                    DriverId = jsonObject.optString("UserId");
+                    Toast.makeText(Inbox.this, " " +DriverId, Toast.LENGTH_SHORT).show();
+                    session.createUserLoginSession("User Session ", DriverId);
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
+
+
+                /*try {
+
+                    JSONObject person = new JSONObject();
+                    String DriverId = person.getString("UserId");
+                    Toast.makeText(Inbox.this, " " + DriverId, Toast.LENGTH_SHORT).show();
+                } catch (JSONException e) {
+                    e.printStackTrace();
+*/
+
+                Intent i = new Intent(Inbox.this, Dashboard.class);
+                 i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+
+                // Add new Flag to start new Activity
+                i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                startActivity(i);
+                }
+
+
+
+
+                //    }
+             //   }
+            },
+
+                new Response.ErrorListener() {
+                    @Override
+                    public void onErrorResponse(VolleyError error) {
+                        Toast.makeText(Inbox.this, " " + error, Toast.LENGTH_SHORT).show();
+                    }
+                }) {
+            @Override
+            protected Map<String, String> getParams() throws AuthFailureError {
+                Map<String, String> params = new HashMap<String, String>();
+                params.put("Username", Email);
+                return params;
+
+            }
+            @Override
+            public Map<String, String> getHeaders() throws AuthFailureError {
+                Map<String,String> params = new HashMap<String, String>();
+                params.put("Authorization", "bearer " +token);
+                return params;
+            }
+        };
+
+        RequestQueue rq = Volley.newRequestQueue(this);
+        rq.add(stringRequest);
+
+
+    }
+
+    }

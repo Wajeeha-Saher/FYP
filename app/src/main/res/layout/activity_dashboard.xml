@@ -7,38 +7,36 @@
     tools:context="com.example.dell6440.driver_side.Dashboard">
 
 
-
-
     <Button
         android:id="@+id/logout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="259dp"
+        android:layout_marginStart="259dp"
         android:layout_marginTop="16dp"
         android:text="@string/logout"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:layout_constraintLeft_creator="1"
-        tools:layout_constraintTop_creator="1"
-        android:layout_marginStart="259dp" />
+        tools:layout_constraintTop_creator="1" />
 
 
     <ImageView
         android:id="@+id/logo"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/transport"
-        tools:layout_constraintRight_creator="1"
-        tools:layout_constraintBottom_creator="1"
-        app:layout_constraintBottom_toTopOf="@+id/textView"
-        android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp"
-        app:layout_constraintRight_toRightOf="parent"
-        tools:layout_constraintLeft_creator="1"
         android:layout_marginBottom="20dp"
-        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginEnd="8dp"
         android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp" />
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:srcCompat="@drawable/transport"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1" />
 
     <TextView
         android:id="@+id/textView"
@@ -48,79 +46,78 @@
         android:text="@string/logo_name"
         android:textSize="20sp"
         android:textStyle="bold"
-        tools:layout_constraintRight_creator="1"
-        tools:layout_constraintBottom_creator="1"
-        app:layout_constraintBottom_toTopOf="@+id/curr_order"
+        app:layout_constraintLeft_toLeftOf="@+id/logo"
         app:layout_constraintRight_toRightOf="@+id/logo"
+        tools:layout_constraintBottom_creator="1"
         tools:layout_constraintLeft_creator="1"
-        android:layout_marginBottom="10dp"
-        app:layout_constraintLeft_toLeftOf="@+id/logo" />
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintHorizontal_bias="0.0"
+        android:layout_marginBottom="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/newOrders" />
 
 
     <Button
-        android:id="@+id/curr_order"
+        android:id="@+id/newOrders"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
-        android:text="@string/curr_order"
+        android:text="New Orders"
         app:layout_constraintBottom_toTopOf="@+id/review"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="@+id/textView"
         app:layout_constraintRight_toRightOf="@+id/textView"
         tools:layout_constraintBottom_creator="1"
         tools:layout_constraintLeft_creator="1"
-        tools:layout_constraintRight_creator="1"
-        app:layout_constraintHorizontal_bias="0.0" />
-
+        tools:layout_constraintRight_creator="1" />
 
     <Button
         android:id="@+id/review"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
         android:text="@string/CONTACT_US"
-        app:layout_constraintLeft_toLeftOf="@+id/curr_order"
-        app:layout_constraintRight_toRightOf="@+id/curr_order"
+        app:layout_constraintBottom_toTopOf="@+id/map"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="@+id/newOrders"
+        app:layout_constraintRight_toRightOf="@+id/newOrders"
         tools:layout_constraintBottom_creator="1"
         tools:layout_constraintLeft_creator="1"
-        tools:layout_constraintRight_creator="1"
-        app:layout_constraintHorizontal_bias="0.0"
-        android:layout_marginBottom="10dp"
-        app:layout_constraintBottom_toTopOf="@+id/map" />
+        tools:layout_constraintRight_creator="1" />
 
     <Button
         android:id="@+id/map"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="84dp"
+        android:layout_marginEnd="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
         android:text="@string/map"
         app:layout_constraintBottom_toTopOf="@+id/textView2"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp" />
+        app:layout_constraintRight_toRightOf="parent" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="336dp"
         android:layout_height="41dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="520dp"
         android:gravity="bottom|center_horizontal"
         android:paddingBottom="10dp"
         android:text="@string/footer"
-        tools:layout_constraintTop_creator="1"
-        tools:layout_constraintRight_creator="1"
-        android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp"
+        app:layout_constraintHorizontal_bias="0.391"
+        app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        android:layout_marginTop="520dp"
         app:layout_constraintTop_toBottomOf="parent"
         tools:layout_constraintLeft_creator="1"
-        app:layout_constraintLeft_toLeftOf="parent"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        app:layout_constraintHorizontal_bias="0.391" />
-
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1" />
 
 
 </android.support.constraint.ConstraintLayout>

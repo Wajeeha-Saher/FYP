@@ -1,118 +1,96 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.example.dell6440.driver_side.Register_Yourself">
+
 
     <ImageView
         android:id="@+id/logo"
-        android:layout_width="0dp"
-        android:layout_height="100dp"
-        android:layout_marginBottom="19dp"
-        android:maxHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logout"
+        android:layout_marginTop="15dp"
+        android:layout_weight="1"
+        android:foregroundGravity="center_horizontal"
+        app:srcCompat="@drawable/transport" />
 
-        app:layout_constraintBottom_toTopOf="@+id/textView"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintLeft_toLeftOf="@+id/textView"
-        app:layout_constraintRight_toRightOf="@+id/textView"
-        app:srcCompat="@drawable/transport"
-        tools:layout_constraintBottom_creator="1"
-        tools:layout_constraintLeft_creator="1"
-        tools:layout_constraintRight_creator="1"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="14dp" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="0dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="25dp"
         android:gravity="center_horizontal"
         android:text="@string/logo_name"
         android:textSize="25sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/regis_driver"
-        app:layout_constraintLeft_toLeftOf="@+id/regis_driver"
-        app:layout_constraintRight_toRightOf="@+id/regis_driver"
-        tools:layout_constraintBottom_creator="1"
-        tools:layout_constraintLeft_creator="1"
-        tools:layout_constraintRight_creator="1" />
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="1"/>
+
 
     <TextView
         android:id="@+id/regis_driver"
-        android:layout_width="0dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="11dp"
         android:paddingLeft="25dp"
         android:text="@string/register"
         android:textSize="20dp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/fname"
-        app:layout_constraintLeft_toLeftOf="@+id/fname"
-        app:layout_constraintRight_toRightOf="@+id/fname"
-        tools:layout_constraintBottom_creator="1"
-        tools:layout_constraintLeft_creator="1"
-        tools:layout_constraintRight_creator="1" />
+        android:layout_marginLeft="16dp"
+        android:layout_weight="1"/>
 
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/regis_driver"
+        android:layout_weight="4">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
     <EditText
         android:id="@+id/fname"
-        android:layout_width="0dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/fname"
         android:inputType="textEmailAddress"
-        tools:layout_constraintRight_creator="1"
-        tools:layout_constraintBottom_creator="1"
-        app:layout_constraintBottom_toTopOf="@+id/car_no"
-        app:layout_constraintRight_toRightOf="@+id/car_no"
-        tools:layout_constraintLeft_creator="1"
-        android:layout_marginBottom="3dp"
-        app:layout_constraintLeft_toLeftOf="@+id/car_no"
-        app:layout_constraintHorizontal_bias="0.0" />
+         />
 
-    <EditText
+            <EditText
+                android:id="@+id/Lastname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/lname"
+                android:inputType="text|textPersonName"
+                android:layout_below="@+id/fname"/>
+
+            <EditText
+                android:id="@+id/contact_no"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/cont_no"
+                android:inputType="text" />
+
+            <EditText
         android:id="@+id/car_no"
-        android:layout_width="0dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/car_no"
-        android:inputType="text"
-        tools:layout_constraintRight_creator="1"
-        tools:layout_constraintBottom_creator="1"
-        app:layout_constraintBottom_toTopOf="@+id/contact_no"
-        app:layout_constraintRight_toRightOf="@+id/contact_no"
-        tools:layout_constraintLeft_creator="1"
-        android:layout_marginBottom="3dp"
-        app:layout_constraintLeft_toLeftOf="@+id/contact_no"
-        app:layout_constraintHorizontal_bias="0.0" />
+        android:inputType="text" />
 
-    <EditText
-        android:id="@+id/contact_no"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:hint="@string/cont_no"
-        android:inputType="text"
-        tools:layout_constraintRight_creator="1"
-        tools:layout_constraintBottom_creator="1"
-        app:layout_constraintBottom_toTopOf="@+id/email"
-        app:layout_constraintRight_toRightOf="@+id/email"
-        tools:layout_constraintLeft_creator="1"
-        android:layout_marginBottom="3dp"
-        app:layout_constraintLeft_toLeftOf="@+id/email"
-        app:layout_constraintHorizontal_bias="0.0" />
-
-    <EditText
+            <EditText
         android:id="@+id/email"
-        android:layout_width="0dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/email"
         android:inputType="textEmailAddress"
-        tools:layout_constraintRight_creator="1"
-        tools:layout_constraintBottom_creator="1"
-        app:layout_constraintBottom_toTopOf="@+id/password"
-        app:layout_constraintRight_toRightOf="@+id/password"
-        tools:layout_constraintLeft_creator="1"
         android:layout_marginBottom="3dp"
         app:layout_constraintLeft_toLeftOf="@+id/password"
         app:layout_constraintHorizontal_bias="0.0" />
@@ -120,57 +98,30 @@
 
     <EditText
         android:id="@+id/password"
-        android:layout_width="0dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/password"
         android:inputType="textPassword"
-        tools:layout_constraintRight_creator="1"
-        tools:layout_constraintBottom_creator="1"
-        app:layout_constraintBottom_toTopOf="@+id/register"
-        app:layout_constraintRight_toRightOf="@+id/register"
-        tools:layout_constraintLeft_creator="1"
         android:layout_marginBottom="9dp"
         app:layout_constraintLeft_toLeftOf="@+id/register" />
+        </LinearLayout>
+    </ScrollView>
+
 
     <Button
         android:id="@+id/register"
-        android:layout_width="0dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_weight="1"
         android:text="@string/register_button"
-        tools:layout_constraintRight_creator="1"
-        tools:layout_constraintBottom_creator="1"
-        android:layout_marginStart="8dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_marginEnd="8dp"
-        app:layout_constraintRight_toRightOf="parent"
-        tools:layout_constraintLeft_creator="1"
-        android:layout_marginBottom="61dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView2"
         app:layout_constraintLeft_toLeftOf="parent"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        app:layout_constraintHorizontal_bias="0.0" />
-
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="336dp"
-        android:layout_height="41dp"
-        android:gravity="bottom|center_horizontal"
-        android:paddingBottom="10dp"
-        android:text="@string/footer"
-        tools:layout_constraintTop_creator="1"
-        tools:layout_constraintRight_creator="1"
-        android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp"
-        app:layout_constraintRight_toRightOf="parent"
-        android:layout_marginTop="520dp"
-        app:layout_constraintTop_toBottomOf="parent"
-        tools:layout_constraintLeft_creator="1"
-        app:layout_constraintLeft_toLeftOf="parent"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        app:layout_constraintHorizontal_bias="0.391" />
+        app:layout_constraintRight_toRightOf="parent" />
 
 
 
-</android.support.constraint.ConstraintLayout>
+
+
+
+</LinearLayout>

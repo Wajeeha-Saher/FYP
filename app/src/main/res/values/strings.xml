@@ -5,7 +5,7 @@
     <string name="password">Enter Password</string>
     <string name="login">LOGIN</string>
     <string name="footer">Email: abc@xyz.com\nAll rights are reserved</string>
-    <string name="fname">Enter Full Name</string>
+    <string name="fname">Enter First Name</string>
     <string name="cont_no">Enter Contact Number</string>
     <string name="car_no">Enter Car Number</string>
     <string name="register_button">REGISTER</string>
@@ -14,6 +14,7 @@
     <string name="location">Enter Company Location</string>
     <string name="company_name">Enter Company Name</string>
     <string name="logout">LOGOUT</string>
+    <string name="lname">Enter Last Name</string>
     <string name="back">BACK</string>
     <string name="pick_location">Pick Location</string>
     <string name="drop_location">Drop Location</string>
@@ -27,4 +28,7 @@
     <string name="decline">DECLINE</string>
     <string name="submit">SUBMIT</string>
     <string name="map">Go To Google Map</string>
+    <string name="title_activity_accept">Accept</string>
+    <string name="title_activity_driver">Map</string>
+    <string name="title_activity_maps">Map</string>
 </resources>

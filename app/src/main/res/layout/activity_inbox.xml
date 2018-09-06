@@ -34,7 +34,7 @@
         android:textStyle="bold"
         tools:layout_constraintRight_creator="1"
         tools:layout_constraintBottom_creator="1"
-        app:layout_constraintBottom_toTopOf="@+id/editText"
+        app:layout_constraintBottom_toTopOf="@+id/email"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
         app:layout_constraintRight_toRightOf="parent"
@@ -46,7 +46,7 @@
 
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/email"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:hint="@string/email"
@@ -68,10 +68,10 @@
         tools:layout_constraintRight_creator="1"
         tools:layout_constraintBottom_creator="1"
         app:layout_constraintBottom_toTopOf="@+id/curr_order"
-        app:layout_constraintRight_toRightOf="@+id/editText"
+        app:layout_constraintRight_toRightOf="@+id/email"
         tools:layout_constraintLeft_creator="1"
         android:layout_marginBottom="10dp"
-        app:layout_constraintLeft_toLeftOf="@+id/editText" />
+        app:layout_constraintLeft_toLeftOf="@+id/email" />
 
     <Button
         android:id="@+id/curr_order"
